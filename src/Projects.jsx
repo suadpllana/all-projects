@@ -127,6 +127,39 @@ const Projects = () => {
             </div>
             </a>
 
+            <a target="_blank" href="https://suadpllana.github.io/nasa/">
+            <div>
+                 <h2>Nasa</h2>
+            </div>
+            </a>
+
+
+            <a target="_blank" href="https://suadpllana.github.io/jokes/">
+            <div>
+                 <h2>Jokes</h2>
+            </div>
+            </a>
+
+
+            <a target="_blank" href="https://suadpllana.github.io/quran/">
+            <div>
+                 <h2>Quran</h2>
+            </div>
+            </a>
+
+
+            <a target="_blank" href="https://suadpllana.github.io/holidays/">
+            <div>
+                 <h2>Holidays</h2>
+            </div>
+            </a>
+     
+            <a target="_blank" href="https://suadpllana.github.io/coffee/">
+            <div>
+                 <h2>Coffee</h2>
+            </div>
+            </a>
+
             
             <a target="_blank" href="https://suadpllana.github.io/rockPaperScissors/">
             <div>
