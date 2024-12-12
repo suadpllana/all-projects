@@ -7,11 +7,18 @@ const Projects = () => {
       <h2>Here are all my projects </h2>
         <div className="container">
 
-   <a target="_blank" href="https://suadpllana.github.io/ai-image-generator/">
+           <a target="_blank" href="https://suadpllana.github.io/ai-image-generator/">
             <div>
                  <h2>AI Image Generator </h2>
             </div>
             </a>
+
+            <a target="_blank" href="https://suadpllana.github.io/books">
+            <div>
+                 <h2>Books</h2>
+            </div>
+            </a>
+
 
             <a target="_blank" href="https://suadpllana.github.io/bmi">
             <div>
@@ -105,6 +112,12 @@ const Projects = () => {
             <a target="_blank" href="https://suadpllana.github.io/euro2024/">
             <div>
                  <h2>Euro 2024</h2>
+            </div>
+            </a>
+
+            <a target="_blank" href="https://suadpllana.github.io/expense-tracker/">
+            <div>
+                 <h2>Expense Tracker</h2>
             </div>
             </a>
 
@@ -221,6 +234,13 @@ const Projects = () => {
             <a target="_blank" href="https://suadpllana.github.io/random-password-generator/">
             <div>
                  <h2>Random Password Generator</h2>
+            </div>
+            </a>
+
+            
+            <a target="_blank" href="https://suadpllana.github.io/restaurant/dashboard/dashboard.html">
+            <div>
+                 <h2>Restaurant</h2>
             </div>
             </a>
           
