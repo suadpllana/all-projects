@@ -1,11 +1,16 @@
 import React from 'react'
-
+import {useState} from "react"
 const Projects = () => {
+     const [toggleView , setToggleView] = useState(true)
+
+
+
   return (
-    <div>
-      <h1>Hello my name is Suad Pllana , passionate Front-end Developer</h1>
-      <h2>Here are all my projects </h2>
-        <div className="container">
+    <div className={toggleView ? "all-projects-container " : " darkBody"}>
+      <h1 className={!toggleView && "lightH1"}>Hello my name is Suad Pllana , passionate Front-end Developer</h1>
+      <h2 className={!toggleView && "lightH1"}>Here are all my projects </h2>
+      <button className={toggleView ? "blackButton" : ""} onClick={() => setToggleView((prev) => !prev)}>{toggleView ? "Dark Mode" : "Light Mode"}</button>
+        <div className="container" id={!toggleView ? "darkContainer" : ""}>
 
            <a target="_blank" href="https://suadpllana.github.io/ai-image-generator/">
             <div>
