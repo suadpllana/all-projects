@@ -17,12 +17,14 @@ body{
 
 }
 button{
-  height: 30px;
+  min-height: 30px;
   border-radius: 20px;
   font-size: 17px;
   border: none;
   cursor: pointer;
-  width: 100px;
+  min-width: 100px;
+  height: auto;
+  width: auto;
 }
 .blackButton{
 
@@ -64,6 +66,7 @@ h1{
   color: black;
 }
 @media (max-width: 767px){
+  
   .container{
     grid-template-columns: 1fr;
   }

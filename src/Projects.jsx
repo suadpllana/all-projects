@@ -80,11 +80,7 @@ const Projects = () => {
             </div>
             </a>
 
-            <a target="_blank" href="https://suadpllana.github.io/decimal-to-binary/">
-            <div>
-                 <h2>Decimal to binary converter</h2>
-            </div>
-            </a>
+           
 
             <a target="_blank" href="https://suadpllana.github.io/dictionary/">
             <div>
@@ -193,6 +189,11 @@ const Projects = () => {
                  <h2>Notes</h2>
             </div>
             </a>
+            <a target="_blank" href="https://suadpllana.github.io/number-converter/">
+            <div>
+                 <h2>Number Converter</h2>
+            </div>
+            </a>
 
             <a target="_blank" href="https://suadpllana.github.io/piano/">
             <div>
@@ -243,7 +244,7 @@ const Projects = () => {
             </a>
 
             
-            <a target="_blank" href="https://suadpllana.github.io/restaurant/dashboard/dashboard.html">
+            <a target="_blank" href="https://suadpllana.github.io/restaurant/">
             <div>
                  <h2>Restaurant</h2>
             </div>
