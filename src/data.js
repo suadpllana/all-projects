@@ -258,7 +258,7 @@ export const data = [
         image: nasa,
         title: "Nasa",
         tools: "React",
-        link: "https://suadpllana.github.io/holidays",
+        link: "https://suadpllana.github.io/nasa",
         type: "intermediate"
     },
     {
