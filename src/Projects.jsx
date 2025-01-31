@@ -36,7 +36,9 @@ const Projects = () => {
         {storedData &&
           storedData.map((project, index) => (
             <div className="project">
+              <a href={project.link} target="_blank">
               <img src={project.image} alt="" />
+              </a>
               <div className="content">
                 <h3>{project.title}</h3>
                 <p>{project.tools}</p>
