@@ -43,6 +43,7 @@ import todo from "./images/toDoList.png"
 import translation from "./images/translation.png"
 import university from "./images/university.png"
 import weather from "./images/weather.png"
+import football from "./images/football1.png"
 
 export const data = [
     {
@@ -180,6 +181,14 @@ export const data = [
         tools: "React",
         link: "https://suadpllana.github.io/expense-tracker",
         type: "intermediate"
+    },
+    {
+        id:45,
+        image: football,
+        title: "Football",
+        tools: "React",
+        link: "https://football-app1.netlify.app",
+        type: "complex"
     },
     {
         id:17,
