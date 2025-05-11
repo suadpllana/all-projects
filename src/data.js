@@ -45,6 +45,7 @@ import university from "./images/university.png"
 import weather from "./images/weather.png"
 import football from "./images/football1.png"
 import anime from "./images/anime.png"
+import turnir from "./images/turnir.png"
 
 export const data = [
     {
@@ -66,61 +67,26 @@ export const data = [
     {
         id:2,
         image: books,
-        title: "Books",
+        title: "Library",
         tools: "React",
-        link: "https://suadpllana.github.io/books",
+        link: "https://suadpllana.github.io/library",
         type: "complex"
     },
+  
+
+  
     {
         id:3,
-        image: bmi,
-        title: "BMI Calculator",
-        tools: "React",
-        link: "https://suadpllana.github.io/bmi",
-        type: "easy"
-    },
-    {
-        id:4,
-        image: calculator,
-        title: "Calculator",
-        tools: "React",
-        link: "https://suadpllana.github.io/calculator",
-        type: "easy"
-    },
-    {
-        id:5,
-        image: calendar,
-        title: "Calendar",
-        tools: "React",
-        link: "https://suadpllana.github.io/calendar",
-        type: "easy",
-    },
-    {
-        id:6,
         image: charity,
         title: "Charity",
         tools: "React, Bootstrap",
         link: "https://suadpllana.github.io/charity",
         type: "intermediate"
     },
+ 
+ 
     {
-        id:7,
-        image: cinema,
-        title: "Cinema",
-        tools: "React, Sass",
-        link: "https://suadpllana.github.io/cinema",
-        type: "intermediate"
-    },
-    {
-        id:8,
-        image: coffee,
-        title: "Coffee",
-        tools: "React",
-        link: "https://suadpllana.github.io/coffee",
-        type: "easy"
-    },
-    {
-        id:9,
+        id:4,
         image: colorPicker,
         title: "Color Picker",
         tools: "React",
@@ -128,7 +94,7 @@ export const data = [
         type: "intermediate"
     },
     {
-        id:10,
+        id:5,
         image: cryptoPrices,
         title: "Crypto Prices",
         tools: "React",
@@ -136,7 +102,7 @@ export const data = [
         type: "complex"
     },
     {
-        id:11,
+        id:6,
         image: currency,
         title: "Currency Converter",
         tools: "React, Tailwind CSS",
@@ -144,39 +110,17 @@ export const data = [
         type: "intermediate"
     },
     {
-        id:12,
+        id:7,
         image: dictionary,
         title: "Dictionary",
         tools: "React, Bootstrap",
         link: "https://suadpllana.github.io/dictionary",
         type: "intermediate"
     },
+   
+ 
     {
-        id:13,
-        image: clock,
-        title: "Digital Clock",
-        tools: "React",
-        link: "https://suadpllana.github.io/digital-clock",
-        type: "easy"
-    },
-    {
-        id:14,
-        image: dogs,
-        title: "Dogs",
-        tools: "React",
-        link: "https://suadpllana.github.io/dogs",
-        type: "intermediate"
-    },
-    {
-        id:15,
-        image: drums,
-        title: "Drums",
-        tools: "React",
-        link: "https://suadpllana.github.io/drums",
-        type: "intermediate"
-    },
-    {
-        id:16,
+        id:8,
         image: euro,
         title: "Euro 2024",
         tools: "React",
@@ -184,7 +128,7 @@ export const data = [
         type: "complex"
     },
     {
-        id:17,
+        id:9,
         image: expenseTracker,
         title: "Expense tracker",
         tools: "React",
@@ -192,7 +136,7 @@ export const data = [
         type: "complex"
     },
     {
-        id:18,
+        id:10,
         image: football,
         title: "Football",
         tools: "React",
@@ -200,55 +144,28 @@ export const data = [
         type: "complex"
     },
     {
-        id:19,
+        id:26,
+        image: turnir,
+        title: "Footbal Tournament",
+        tools:"React",
+        link: "https://suadpllana.github.io/turnir-futbolli",
+        type:"complex"
+    },
+    {
+        id:11,
         image: games,
         title: "Games",
         tools: "React",
         link: "https://suadpllana.github.io/games",
         type: "complex"
     },
+  
+   
+    
+
+  
     {
-        id:20,
-        image: header,
-        title: "Header",
-        tools: "React",
-        link: "https://suadpllana.github.io/header",
-        type: "easy"
-    },
-    {
-        id:21,
-        image: holidays,
-        title: "Holidays",
-        tools: "React",
-        link: "https://suadpllana.github.io/holidays",
-        type: "easy"
-    },
-    {
-        id:22,
-        image: imageGallery,
-        title: "Image Gallery",
-        tools: "React",
-        link: "https://suadpllana.github.io/image-gallery",
-        type: "intermediate"
-    },
-    {
-        id:23,
-        image: jokes,
-        title: "Jokes",
-        tools: "React",
-        link: "https://suadpllana.github.io/jokes",
-        type: "intermediate"
-    },
-    {
-        id:24,
-        image: logo,
-        title: "Logo Generator",
-        tools: "React",
-        link: "https://suadpllana.github.io/logo-generator",
-        type: "easy"
-    },
-    {
-        id: 25,
+        id: 12,
         image: movies,
         title: "Movies",
         tools: "React",
@@ -256,7 +173,7 @@ export const data = [
         type: "complex"
     },
     {
-        id:26,
+        id:13,
         image: music,
         title: "Music",
         tools: "React",
@@ -264,7 +181,7 @@ export const data = [
         type: "complex"
     },
     {
-        id:27,
+        id:14,
         image: naruto,
         title: "Naruto",
         tools: "React",
@@ -272,7 +189,7 @@ export const data = [
         type: "intermediate"
     },
     {
-        id:28,
+        id:15,
         image: nasa,
         title: "Nasa",
         tools: "React",
@@ -280,31 +197,17 @@ export const data = [
         type: "intermediate"
     },
     {
-        id:29,
+        id:16,
         image: news,
         title: "News",
         tools: "React",
         link: "https://suadpllana.github.io/news",
         type: "intermediate"
     },
+
+
     {
-        id:30,
-        image: notes,
-        title: "Notes",
-        tools: "React",
-        link: "https://suadpllana.github.io/notes",
-        type: "intermediate"
-    },
-    {
-        id:31,
-        image: numberConverter,
-        title: "Number Converter",
-        tools: "React",
-        link: "https://suadpllana.github.io/number-converter",
-        type: "intermediate"
-    },
-    {
-        id:32,
+        id:17,
         image: piano,
         title: "Piano",
         tools: "React",
@@ -312,7 +215,7 @@ export const data = [
         type: "intermediate"
     },
     {
-        id:33,
+        id:18,
         image: pokemon,
         title: "Pokemon",
         tools: "React",
@@ -320,23 +223,16 @@ export const data = [
         type: "complex"
     },
     {
-        id:34,
+        id:19,
         image: quiz,
         title: "Quiz",
         tools: "React",
         link: "https://suadpllana.github.io/quiz",
         type: "intermediate"
     },
+  
     {
-        id:35,
-        image: qrCode,
-        title: "Qr Code Generator",
-        tools: "React",
-        link: "https://suadpllana.github.io/qr-code-generator",
-        type: "easy"
-    },
-    {
-        id:36,
+        id:20,
         image: quotes,
         title: "Quotes",
         tools: "React",
@@ -344,55 +240,25 @@ export const data = [
         type: "complex"
     },
     {
-        id:37,
+        id:21,
         image: quran,
         title: "Quran",
         tools: "React",
         link: "https://suadpllana.github.io/quran",
         type: "complex"
     },
+  
     {
-        id:38,
-        image: password,
-        title: "Random Password Generator",
-        tools: "React",
-        link: "https://suadpllana.github.io/random-password-generator",
-        type: "easy"
-    },
-    {
-        id:39,
+        id:22,
         image: restaurant,
         title: "Restaurant",
         tools: "React",
         link: "https://suadpllana.github.io/restaurant",
         type: "complex"
     },
+   
     {
-        id:40,
-        image: rockPaperScissors,
-        title: "Rock Paper Scissors",
-        tools: "HTML,CSS,Javascript",
-        link: "https://suadpllana.github.io/rockPaperScissors",
-        type: "easy"
-    },
-    {
-        id:41,
-        image: stopwatch,
-        title: "Stopwatch",
-        tools: "React",
-        link: "https://suadpllana.github.io/stopwatch",
-        type: "easy"
-    },
-    {
-        id:42,
-        image: textToSpeech,
-        title: "Text to Speech Converter",
-        tools: "React",
-        link: "https://suadpllana.github.io/text-to-voice-converter",
-        type: "intermediate"
-    },
-    {
-        id:43,
+        id:23,
         image: todo,
         title: "To do list",
         tools: "React",
@@ -400,23 +266,16 @@ export const data = [
         type: "complex"
     },
     {
-        id:44,
+        id:24,
         image: translation,
         title: "Translation",
         tools: "React, Tailwind CSS",
         link: "https://suadpllana.github.io/translate",
         type: "complex"
     },
+  
     {
-        id:45,
-        image: university,
-        title: "University",
-        tools: "React",
-        link: "https://suadpllana.github.io/university",
-        type: "intermediate"
-    },
-    {
-        id:46,
+        id:25,
         image: weather,
         title: "Weather",
         tools: "React",
