@@ -46,6 +46,7 @@ import weather from "./images/weather.png"
 import football from "./images/football1.png"
 import anime from "./images/anime.png"
 import turnir from "./images/turnir.png"
+import guessTheFlag from "./images/guess-the-flag.png"
 
 export const data = [
     {
@@ -67,7 +68,7 @@ export const data = [
     {
         id:2,
         image: books,
-        title: "Library",
+        title: "Books",
         tools: "React",
         link: "https://suadpllana.github.io/library",
         type: "complex"
@@ -146,7 +147,7 @@ export const data = [
     {
         id:26,
         image: turnir,
-        title: "Footbal Tournament",
+        title: "Football Tournament",
         tools:"React",
         link: "https://suadpllana.github.io/turnir-futbolli",
         type:"complex"
@@ -159,13 +160,21 @@ export const data = [
         link: "https://suadpllana.github.io/games",
         type: "complex"
     },
+    {
+        id:12,
+        image: guessTheFlag,
+        title: "Guess the flag",
+        tools: "React",
+        link: "https://suadpllana.github.io/guess-the-flag",
+        type:"complex"
+    },
   
    
     
 
   
     {
-        id: 12,
+        id: 13,
         image: movies,
         title: "Movies",
         tools: "React",
@@ -173,7 +182,7 @@ export const data = [
         type: "complex"
     },
     {
-        id:13,
+        id:14,
         image: music,
         title: "Music",
         tools: "React",
@@ -181,7 +190,7 @@ export const data = [
         type: "complex"
     },
     {
-        id:14,
+        id:15,
         image: naruto,
         title: "Naruto",
         tools: "React",
@@ -189,7 +198,7 @@ export const data = [
         type: "intermediate"
     },
     {
-        id:15,
+        id:16,
         image: nasa,
         title: "Nasa",
         tools: "React",
@@ -197,7 +206,7 @@ export const data = [
         type: "intermediate"
     },
     {
-        id:16,
+        id:17,
         image: news,
         title: "News",
         tools: "React",
@@ -207,7 +216,7 @@ export const data = [
 
 
     {
-        id:17,
+        id:18,
         image: piano,
         title: "Piano",
         tools: "React",
@@ -215,7 +224,7 @@ export const data = [
         type: "intermediate"
     },
     {
-        id:18,
+        id:19,
         image: pokemon,
         title: "Pokemon",
         tools: "React",
@@ -223,7 +232,7 @@ export const data = [
         type: "complex"
     },
     {
-        id:19,
+        id:20,
         image: quiz,
         title: "Quiz",
         tools: "React",
@@ -232,7 +241,7 @@ export const data = [
     },
   
     {
-        id:20,
+        id:21,
         image: quotes,
         title: "Quotes",
         tools: "React",
@@ -240,7 +249,7 @@ export const data = [
         type: "complex"
     },
     {
-        id:21,
+        id:22,
         image: quran,
         title: "Quran",
         tools: "React",
@@ -249,7 +258,7 @@ export const data = [
     },
   
     {
-        id:22,
+        id:23,
         image: restaurant,
         title: "Restaurant",
         tools: "React",
@@ -258,7 +267,7 @@ export const data = [
     },
    
     {
-        id:23,
+        id:24,
         image: todo,
         title: "To do list",
         tools: "React",
@@ -266,7 +275,7 @@ export const data = [
         type: "complex"
     },
     {
-        id:24,
+        id:25,
         image: translation,
         title: "Translation",
         tools: "React, Tailwind CSS",
@@ -275,7 +284,7 @@ export const data = [
     },
   
     {
-        id:25,
+        id:26,
         image: weather,
         title: "Weather",
         tools: "React",
