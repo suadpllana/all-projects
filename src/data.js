@@ -47,6 +47,7 @@ import football from "./images/football1.png"
 import anime from "./images/anime.png"
 import turnir from "./images/turnir.png"
 import guessTheFlag from "./images/guess-the-flag.png"
+import psgNews from "./images/psgNews.png"
 
 export const data = [
     {
@@ -229,6 +230,14 @@ export const data = [
         title: "Pokemon",
         tools: "React",
         link: "https://suadpllana.github.io/pokemon",
+        type: "complex"
+    },
+    {
+        id:20,
+        image: psgNews,
+        title: "PSG News",
+        tools: "React, Node.js, MongoDB",
+        link: "https://psg-news.netlify.app/",
         type: "complex"
     },
     {
