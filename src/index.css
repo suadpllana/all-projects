@@ -74,6 +74,11 @@ button{
 h1{
   margin-top: 0;
 }
+select{
+  width: 200px;
+  height: 25px;
+  border-radius: 20px;
+}
 .container .project {
   min-height: 18rem;
   height: auto;
