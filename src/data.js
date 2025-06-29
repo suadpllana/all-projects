@@ -244,13 +244,7 @@ export const data = [
         link: "https://suadpllana.github.io/library",
         type: "complex"
     },
-    {
-        image: logo,
-        title: "Logo",
-        tools: "React",
-        link: "https://suadpllana.github.io/logo-generator",
-        type: "easy"
-    },
+   
     {
         image: movies,
         title: "Movies",
