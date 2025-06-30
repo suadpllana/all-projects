@@ -194,6 +194,13 @@ export const data = [
         link: "https://suadpllana.github.io/games",
         type: "complex"
     },
+     {
+        image: translation,
+        title: "Google Translate",
+        tools: "React, Tailwind CSS",
+        link: "https://suadpllana.github.io/translate",
+        type: "complex"
+    },
     {
         image: guessTheFlag,
         title: "Guess the flag",
@@ -393,13 +400,7 @@ export const data = [
         link: "https://suadpllana.github.io/to-do-list",
         type: "intermediate"
     },
-    {
-        image: translation,
-        title: "Translation",
-        tools: "React, Tailwind CSS",
-        link: "https://suadpllana.github.io/translate",
-        type: "complex"
-    },
+   
     {
         image: university,
         title: "University",
