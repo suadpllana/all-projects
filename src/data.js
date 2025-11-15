@@ -50,6 +50,7 @@ import guessTheFlag from "./images/guess-the-flag.png"
 import psgNews from "./images/psgNews.png"
 import portofolio from "./images/portofolio.png";
 import iphones from "./images/iphones.png"
+import booksClub from "./images/booksClub.png"
 
 export const data = [
     {
@@ -72,6 +73,13 @@ export const data = [
         tools: "React",
         link: "https://suadpllana.github.io/bmi",
         type: "easy"
+    },
+         {
+        image: booksClub,
+        title: "Books Club",
+        tools: "React Native, Supabase, Typescript",
+        link: "https://github.com/suadpllana/ai-mobile-suadpllanaa",
+        type: "complex"
     },
    
     {
@@ -247,7 +255,7 @@ export const data = [
      {
         image: books,
         title: "Library",
-        tools: "React",
+        tools: "React, Supabase",
         link: "https://suadpllana.github.io/library",
         type: "complex"
     },

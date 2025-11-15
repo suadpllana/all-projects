@@ -41,7 +41,7 @@ const Projects = () => {
         My name is Suad Pllana, a passionate front-end developer
       </h1>
       <h2 className={!toggleView && "lightH1"}>
-        Check all of my {storedData.length} projects below
+        Check all of my {data.length} projects below
       </h2>
       <h3>
         Filter projects:
